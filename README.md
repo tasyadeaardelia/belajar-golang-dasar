@@ -26,3 +26,26 @@
 ### Println
 
 - Untuk menulis tulisan, perlu import module fmt terlebih dahulu
+
+### Kompilasi File Go-lang
+
+- Kalau mau compile: go build
+- Nanti akan di buat nama file sesuai dengan nama module nya
+- step nya : 
+- go build
+- ./nama-module -> ini berlaku di mac/linux. Kalau windows jalankan nama-module saja
+
+### Jalankan aplikasi tanpa kompilasi
+
+- Kalau mau cepat, jalanin aplikasi golang nya pakai perintah: go run nama-file
+
+
+### Multiple Main Function
+
+- Di Golang, function dalam module / project itu unik, jadi gak boleh buat nama function yang sama
+
+### Tipe Data Number
+
+- Ada dua jenis tipe data Number:
+-- Integer
+-- Floating point
