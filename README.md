@@ -65,3 +65,7 @@
 ### Tipe Data Boolean
 
 - seperti pada umumnya, true or false
+
+### Tipe Data String
+
+- Jumlah karakter di dalam string bisa nol sampai tak terhingga
