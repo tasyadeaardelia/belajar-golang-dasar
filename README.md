@@ -69,3 +69,10 @@
 ### Tipe Data String
 
 - Jumlah karakter di dalam string bisa nol sampai tak terhingga
+
+### Function untuk String
+
+| Function          | Keterangan    |
+| ----------------- | :------------ |
+| len("string")     | Menghitung jumlah karakter di String |
+| "string"[number]  | Mengambil karakter pada posisi yang ditentukan, hasilnya harusnya nanti jadi byte. Perlu konversi lagi ke string |
