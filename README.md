@@ -47,3 +47,16 @@
 ### Tipe Data Number
 
 - Ada dua jenis tipe data Number: Integer & Floating point
+- Integer : int8, int16, int32, int64
+- Pakai yang sesuai kebutuhan saja, kalau pakai int64 jadi makin banyak memori yang terpakai padahal mungkin saja yang diperlukan gak sampai segitu
+- uint8, uint16, uint32, uint64. Tipe data ini nilai minimum nya 0. Yang int tadi nilai minimum nya negatif.
+- Floating Point : float32, float64, complex64, complex128.
+
+### Alias
+
+| Tipe data        | Alias untuk |
+| ---------------- | -----      :|
+| byte             | uint8       |
+| rune             | int32       |
+| int              | minimal int32 |
+| uint             | minimal uint32 |
