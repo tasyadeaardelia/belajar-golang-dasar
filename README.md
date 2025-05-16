@@ -60,3 +60,8 @@
 | rune             | int32       |
 | int              | minimal int32 |
 | uint             | minimal uint32 |
+
+
+### Tipe Data Boolean
+
+- seperti pada umumnya, true or false
