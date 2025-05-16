@@ -46,6 +46,4 @@
 
 ### Tipe Data Number
 
-- Ada dua jenis tipe data Number:
--- Integer
--- Floating point
+- Ada dua jenis tipe data Number: Integer & Floating point
