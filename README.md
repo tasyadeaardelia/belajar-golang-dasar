@@ -76,3 +76,23 @@
 | ----------------- | :------------ |
 | len("string")     | Menghitung jumlah karakter di String |
 | "string"[number]  | Mengambil karakter pada posisi yang ditentukan, hasilnya harusnya nanti jadi byte. Perlu konversi lagi ke string |
+
+### Variable
+
+- Di Go-Lang variable hanya bisa menyimpan tipe data yang sama
+- var nama_variable tipe_data
+- var nama_variable = value ini nanti otomatis golang mendefinisikan tipe data nya sesuai dengan value yang diberikan. Kalau inisiliasi variable saja perlu tipe data.
+
+### Kata kunci var
+
+- kata kunci var tidak wajib
+- asalkan saat membuat variable langsung inisialisasi data nya
+- agar kita perlu menggunakan kata kunci var, kita perlu menggunakan kata kunci := saat menginisialisasikan data pada variable tersebut
+- misalnya kalau udah buat kata kunci := value, kita gak boleh lagi buat kata kunci yang sama isi value nya
+- contoh kayak name := "Value" terus dibawah kita buat lagi name = "Value" itu gak boleh
+
+### Deklarasi Multiple Variable
+
+- Pakai var (firstName = "Value" lastName = "Value")
+- Catatan nya, kalau kita buat seperti itu namun kita tidak gunakan variable nya akan error di golang ketika di run
+- Error nya : declared and not used: firstName dan seterusnya
