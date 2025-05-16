@@ -55,7 +55,7 @@
 ### Alias
 
 | Tipe data        | Alias untuk |
-| ---------------- | -----      :|
+| ---------------- | -----------:|
 | byte             | uint8       |
 | rune             | int32       |
 | int              | minimal int32 |
